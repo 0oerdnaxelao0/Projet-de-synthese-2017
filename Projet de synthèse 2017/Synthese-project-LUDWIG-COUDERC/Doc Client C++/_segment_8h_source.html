@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Projet de synthèse : Ludwig - Couderc:  Fichier source de Synthese-project-LULU-DEDERC/Segment.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Projet de synthèse : Ludwig - Couderc
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d1430c42c6fdd2e75cac3cd9fd79df3a.html">Synthese-project-LULU-DEDERC</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Segment.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &lt;math.h&gt;</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;Vecteur2D.h&quot;</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;Forme.h&quot;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div><div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="class_segment.html">   11</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_segment.html">Segment</a> :<span class="keyword">public</span> <a class="code" href="class_forme.html">Forme</a></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <a class="code" href="class_vecteur2_d.html">Vecteur2D</a> _x;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <a class="code" href="class_vecteur2_d.html">Vecteur2D</a> _y;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keyword">inline</span> <span class="keywordtype">void</span> setX(<a class="code" href="class_vecteur2_d.html">Vecteur2D</a> x);</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keyword">inline</span> <span class="keywordtype">void</span> setY(<a class="code" href="class_vecteur2_d.html">Vecteur2D</a> y);</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <a class="code" href="class_segment.html#a5d9a34fa521a2e6013b731704651e0ec">Segment</a>(<span class="keywordtype">int</span> couleur, <span class="keyword">const</span> <a class="code" href="class_vecteur2_d.html">Vecteur2D</a> x, <span class="keyword">const</span> <a class="code" href="class_vecteur2_d.html">Vecteur2D</a> y);</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <a class="code" href="class_segment.html#a5d9a34fa521a2e6013b731704651e0ec">Segment</a>(<span class="keyword">const</span> <a class="code" href="class_segment.html">Segment</a> &amp;s);</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="class_segment.html#a76b45a453304f1f485e3bc2fcad58b59">~Segment</a>();</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keyword">inline</span> <a class="code" href="class_vecteur2_d.html">Vecteur2D</a> <a class="code" href="class_segment.html#a14da363ecc6c287bfe85c4fd1516b0ca">getX</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keyword">inline</span> <a class="code" href="class_vecteur2_d.html">Vecteur2D</a> <a class="code" href="class_segment.html#a8492afa8ef0de4aeb8e6a35ea05d9967">getY</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordtype">double</span> <a class="code" href="class_segment.html#add17e1ed1d3da5d5a04ecf1a10eddc92">getLongueur</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">string</span> <a class="code" href="class_segment.html#ad076d31aa8094d9770d1ef7d3cfa3e02">Afficher</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="class_segment.html">Segment</a>&amp; <a class="code" href="class_segment.html#a96196edf9510dfd7badace9c213e1f4a">Translation</a>(<span class="keyword">const</span> <a class="code" href="class_vecteur2_d.html">Vecteur2D</a> &amp;v);</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="class_segment.html">Segment</a>&amp; <a class="code" href="class_segment.html#a9742ff9113b80dab6334de204502283e">Rotation</a>(<span class="keyword">const</span> <a class="code" href="class_vecteur2_d.html">Vecteur2D</a> &amp;v, <span class="keywordtype">double</span> angle);</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="class_segment.html">Segment</a>&amp; <a class="code" href="class_segment.html#a1deea06f5d33a3116165046da6b05468">Homothetie</a>(<span class="keyword">const</span> <a class="code" href="class_vecteur2_d.html">Vecteur2D</a> &amp;v, <span class="keywordtype">double</span> rapport);</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keyword">friend</span> ostream&amp; <a class="code" href="class_segment.html#a5cdddd415d939d25e2a23a9d1128864d">operator&lt;&lt;</a>(ostream&amp; o, <span class="keyword">const</span> <a class="code" href="class_segment.html">Segment</a> &amp;s);</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_segment.html#a38c3d7ca2fbb63dc54658231d327d172">accepte</a>(<a class="code" href="class_visiteur.html">Visiteur</a>*) <span class="keyword">const</span>;</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">string</span> <a class="code" href="class_segment.html#a4ad27dbc1243539bfd2306ebb244ee54">toString</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;};</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="keywordtype">void</span> Segment::setX(<a class="code" href="class_vecteur2_d.html">Vecteur2D</a> x)</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;{</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    _x = x;</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;}</div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="keywordtype">void</span> Segment::setY(<a class="code" href="class_vecteur2_d.html">Vecteur2D</a> y)</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;{</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    _y = y;</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;}</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div><div class="line"><a name="l00096"></a><span class="lineno"><a class="line" href="class_segment.html#a14da363ecc6c287bfe85c4fd1516b0ca">   96</a></span>&#160;<a class="code" href="class_vecteur2_d.html">Vecteur2D</a> <a class="code" href="class_segment.html#a14da363ecc6c287bfe85c4fd1516b0ca">Segment::getX</a>()<span class="keyword"> const</span></div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="keyword"></span>{</div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="keywordflow">return</span> _x;</div><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;}</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div><div class="line"><a name="l00101"></a><span class="lineno"><a class="line" href="class_segment.html#a8492afa8ef0de4aeb8e6a35ea05d9967">  101</a></span>&#160;<a class="code" href="class_vecteur2_d.html">Vecteur2D</a> <a class="code" href="class_segment.html#a8492afa8ef0de4aeb8e6a35ea05d9967">Segment::getY</a>()<span class="keyword"> const</span></div><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="keyword"></span>{</div><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="keywordflow">return</span> _y;</div><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;}</div><div class="ttc" id="class_forme_html"><div class="ttname"><a href="class_forme.html">Forme</a></div><div class="ttdoc">Classe Forme. </div><div class="ttdef"><b>Definition:</b> Forme.h:17</div></div>
+<div class="ttc" id="class_segment_html_a14da363ecc6c287bfe85c4fd1516b0ca"><div class="ttname"><a href="class_segment.html#a14da363ecc6c287bfe85c4fd1516b0ca">Segment::getX</a></div><div class="ttdeci">Vecteur2D getX() const</div><div class="ttdoc">Getter X. </div><div class="ttdef"><b>Definition:</b> Segment.h:96</div></div>
+<div class="ttc" id="class_segment_html_add17e1ed1d3da5d5a04ecf1a10eddc92"><div class="ttname"><a href="class_segment.html#add17e1ed1d3da5d5a04ecf1a10eddc92">Segment::getLongueur</a></div><div class="ttdeci">double getLongueur() const</div><div class="ttdoc">getter longueur </div><div class="ttdef"><b>Definition:</b> Segment.cpp:20</div></div>
+<div class="ttc" id="class_vecteur2_d_html"><div class="ttname"><a href="class_vecteur2_d.html">Vecteur2D</a></div><div class="ttdoc">Classe Vecteur2D. </div><div class="ttdef"><b>Definition:</b> Vecteur2D.h:21</div></div>
+<div class="ttc" id="class_segment_html_a96196edf9510dfd7badace9c213e1f4a"><div class="ttname"><a href="class_segment.html#a96196edf9510dfd7badace9c213e1f4a">Segment::Translation</a></div><div class="ttdeci">virtual Segment &amp; Translation(const Vecteur2D &amp;v)</div><div class="ttdoc">Translation d&amp;#39;une forme. </div><div class="ttdef"><b>Definition:</b> Segment.cpp:31</div></div>
+<div class="ttc" id="class_segment_html_a4ad27dbc1243539bfd2306ebb244ee54"><div class="ttname"><a href="class_segment.html#a4ad27dbc1243539bfd2306ebb244ee54">Segment::toString</a></div><div class="ttdeci">virtual string toString() const</div><div class="ttdoc">toString </div><div class="ttdef"><b>Definition:</b> Segment.cpp:57</div></div>
+<div class="ttc" id="class_segment_html_a5d9a34fa521a2e6013b731704651e0ec"><div class="ttname"><a href="class_segment.html#a5d9a34fa521a2e6013b731704651e0ec">Segment::Segment</a></div><div class="ttdeci">Segment(int couleur, const Vecteur2D x, const Vecteur2D y)</div><div class="ttdoc">Constructeur d&amp;#39;un Segment. </div><div class="ttdef"><b>Definition:</b> Segment.cpp:6</div></div>
+<div class="ttc" id="class_segment_html_a8492afa8ef0de4aeb8e6a35ea05d9967"><div class="ttname"><a href="class_segment.html#a8492afa8ef0de4aeb8e6a35ea05d9967">Segment::getY</a></div><div class="ttdeci">Vecteur2D getY() const</div><div class="ttdoc">Getter Y. </div><div class="ttdef"><b>Definition:</b> Segment.h:101</div></div>
+<div class="ttc" id="class_segment_html_a38c3d7ca2fbb63dc54658231d327d172"><div class="ttname"><a href="class_segment.html#a38c3d7ca2fbb63dc54658231d327d172">Segment::accepte</a></div><div class="ttdeci">void accepte(Visiteur *) const</div><div class="ttdoc">Fonction accepte qui rentre des les formes. </div><div class="ttdef"><b>Definition:</b> Segment.cpp:52</div></div>
+<div class="ttc" id="class_segment_html_ad076d31aa8094d9770d1ef7d3cfa3e02"><div class="ttname"><a href="class_segment.html#ad076d31aa8094d9770d1ef7d3cfa3e02">Segment::Afficher</a></div><div class="ttdeci">virtual string Afficher() const</div><div class="ttdoc">Affichage d&amp;#39;une forme. </div><div class="ttdef"><b>Definition:</b> Segment.cpp:26</div></div>
+<div class="ttc" id="class_segment_html_a1deea06f5d33a3116165046da6b05468"><div class="ttname"><a href="class_segment.html#a1deea06f5d33a3116165046da6b05468">Segment::Homothetie</a></div><div class="ttdeci">virtual Segment &amp; Homothetie(const Vecteur2D &amp;v, double rapport)</div><div class="ttdoc">Homothétie d&amp;#39;une forme. </div><div class="ttdef"><b>Definition:</b> Segment.cpp:45</div></div>
+<div class="ttc" id="class_segment_html"><div class="ttname"><a href="class_segment.html">Segment</a></div><div class="ttdoc">Classe Segment. </div><div class="ttdef"><b>Definition:</b> Segment.h:11</div></div>
+<div class="ttc" id="class_segment_html_a76b45a453304f1f485e3bc2fcad58b59"><div class="ttname"><a href="class_segment.html#a76b45a453304f1f485e3bc2fcad58b59">Segment::~Segment</a></div><div class="ttdeci">virtual ~Segment()</div><div class="ttdoc">Destructeur d&amp;#39;un segment. </div><div class="ttdef"><b>Definition:</b> Segment.cpp:16</div></div>
+<div class="ttc" id="class_segment_html_a5cdddd415d939d25e2a23a9d1128864d"><div class="ttname"><a href="class_segment.html#a5cdddd415d939d25e2a23a9d1128864d">Segment::operator&lt;&lt;</a></div><div class="ttdeci">friend ostream &amp; operator&lt;&lt;(ostream &amp;o, const Segment &amp;s)</div><div class="ttdoc">Surcharge operateur &lt;&lt;. </div><div class="ttdef"><b>Definition:</b> Segment.cpp:62</div></div>
+<div class="ttc" id="class_visiteur_html"><div class="ttname"><a href="class_visiteur.html">Visiteur</a></div><div class="ttdoc">Classe Visiteur. </div><div class="ttdef"><b>Definition:</b> Visiteur.h:19</div></div>
+<div class="ttc" id="class_segment_html_a9742ff9113b80dab6334de204502283e"><div class="ttname"><a href="class_segment.html#a9742ff9113b80dab6334de204502283e">Segment::Rotation</a></div><div class="ttdeci">virtual Segment &amp; Rotation(const Vecteur2D &amp;v, double angle)</div><div class="ttdoc">Rotation d&amp;#39;une forme. </div><div class="ttdef"><b>Definition:</b> Segment.cpp:38</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Projet de synthèse : Ludwig - Couderc:  Fichier source de Synthese-project-LULU-DEDERC/FormeComposee.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Projet de synthèse : Ludwig - Couderc
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d1430c42c6fdd2e75cac3cd9fd79df3a.html">Synthese-project-LULU-DEDERC</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">FormeComposee.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;Forme.h&quot;</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keyword">class </span><a class="code" href="class_vecteur2_d.html">Vecteur2D</a>;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div><div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="class_forme_composee.html">   11</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_forme_composee.html">FormeComposee</a> : <span class="keyword">public</span> <a class="code" href="class_forme.html">Forme</a></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    vector&lt;Forme*&gt; _tabFormes;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <a class="code" href="class_forme_composee.html#ade8e690b17bebc5531488cd3bb471cb4">FormeComposee</a>(<span class="keywordtype">int</span> couleur);</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <a class="code" href="class_forme_composee.html#ade8e690b17bebc5531488cd3bb471cb4">FormeComposee</a>(<a class="code" href="class_forme_composee.html">FormeComposee</a> &amp;f);</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <a class="code" href="class_forme_composee.html#a96f51c0f9b44cc48360659d75f8a651d">~FormeComposee</a>();</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keyword">inline</span> vector&lt;Forme*&gt; <a class="code" href="class_forme_composee.html#a9f756caae12963ce8da0c08c1234f1dd">getTabFormes</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <a class="code" href="class_forme_composee.html">FormeComposee</a>&amp; <a class="code" href="class_forme_composee.html#a3ca220b9051f0d2236c047e61c10f60a">operator+=</a>(<a class="code" href="class_forme.html">Forme</a> &amp;f);</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <a class="code" href="class_forme_composee.html">FormeComposee</a> <a class="code" href="class_forme_composee.html#aaaa07f4dfc72baae315220611079aef5">operator+</a>(<a class="code" href="class_forme.html">Forme</a> &amp;f);</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <a class="code" href="class_forme.html">Forme</a>* <a class="code" href="class_forme_composee.html#a66729cd85a4b4b574c8f22d55ab547f6">operator[]</a>(<span class="keywordtype">int</span> index) <span class="keyword">const</span>;</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <a class="code" href="class_forme_composee.html">FormeComposee</a>&amp; <a class="code" href="class_forme_composee.html#a1beb411e75223d92746a72247d982b2e">Translation</a>(<span class="keyword">const</span> <a class="code" href="class_vecteur2_d.html">Vecteur2D</a> &amp;v);</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <a class="code" href="class_forme_composee.html">FormeComposee</a>&amp; <a class="code" href="class_forme_composee.html#a01db1a4bc0c307c06439552d11ea2d2f">Rotation</a>(<span class="keyword">const</span> <a class="code" href="class_vecteur2_d.html">Vecteur2D</a> &amp;v, <span class="keywordtype">double</span> angle);</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <a class="code" href="class_forme_composee.html">FormeComposee</a>&amp; <a class="code" href="class_forme_composee.html#ab58ed3db5043e5a9f9571174878447d6">Homothetie</a>(<span class="keyword">const</span> <a class="code" href="class_vecteur2_d.html">Vecteur2D</a> &amp;v, <span class="keywordtype">double</span> rapport);</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">string</span> <a class="code" href="class_forme_composee.html#a87eb22cfdcccf152b000389a98506e99">Afficher</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keyword">friend</span> ostream&amp; <a class="code" href="class_forme_composee.html#a38d36f885a9e2aa1cbafd425929027a7">operator&lt;&lt;</a>(ostream&amp; o, <span class="keyword">const</span> <a class="code" href="class_forme_composee.html">FormeComposee</a> &amp;f);</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_forme_composee.html#a191ce5caf053b384f8aa079906a38615">accepte</a>(<a class="code" href="class_visiteur.html">Visiteur</a> *v) <span class="keyword">const</span>;</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordtype">string</span> <a class="code" href="class_forme_composee.html#ab9ce83e32692ab01d6e6056f8c382da4">toString</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;};</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div><div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="class_forme_composee.html#a9f756caae12963ce8da0c08c1234f1dd">   76</a></span>&#160;<span class="keyword">inline</span> vector&lt;Forme*&gt; <a class="code" href="class_forme_composee.html#a9f756caae12963ce8da0c08c1234f1dd">FormeComposee::getTabFormes</a>()<span class="keyword"> const</span></div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="keyword"></span>{</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keywordflow">return</span> _tabFormes;</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;}</div><div class="ttc" id="class_forme_composee_html_a96f51c0f9b44cc48360659d75f8a651d"><div class="ttname"><a href="class_forme_composee.html#a96f51c0f9b44cc48360659d75f8a651d">FormeComposee::~FormeComposee</a></div><div class="ttdeci">~FormeComposee()</div><div class="ttdoc">Destructeur d&amp;#39;une FormeComposee. </div><div class="ttdef"><b>Definition:</b> FormeComposee.cpp:13</div></div>
+<div class="ttc" id="class_forme_composee_html_a9f756caae12963ce8da0c08c1234f1dd"><div class="ttname"><a href="class_forme_composee.html#a9f756caae12963ce8da0c08c1234f1dd">FormeComposee::getTabFormes</a></div><div class="ttdeci">vector&lt; Forme * &gt; getTabFormes() const</div><div class="ttdoc">Getter Tableau de Forme (s) </div><div class="ttdef"><b>Definition:</b> FormeComposee.h:76</div></div>
+<div class="ttc" id="class_forme_composee_html_a191ce5caf053b384f8aa079906a38615"><div class="ttname"><a href="class_forme_composee.html#a191ce5caf053b384f8aa079906a38615">FormeComposee::accepte</a></div><div class="ttdeci">virtual void accepte(Visiteur *v) const</div><div class="ttdoc">Fonction accepte qui rentre des les formes. </div><div class="ttdef"><b>Definition:</b> FormeComposee.cpp:83</div></div>
+<div class="ttc" id="class_forme_html"><div class="ttname"><a href="class_forme.html">Forme</a></div><div class="ttdoc">Classe Forme. </div><div class="ttdef"><b>Definition:</b> Forme.h:17</div></div>
+<div class="ttc" id="class_forme_composee_html_ab9ce83e32692ab01d6e6056f8c382da4"><div class="ttname"><a href="class_forme_composee.html#ab9ce83e32692ab01d6e6056f8c382da4">FormeComposee::toString</a></div><div class="ttdeci">string toString() const</div><div class="ttdoc">toString </div><div class="ttdef"><b>Definition:</b> FormeComposee.cpp:89</div></div>
+<div class="ttc" id="class_vecteur2_d_html"><div class="ttname"><a href="class_vecteur2_d.html">Vecteur2D</a></div><div class="ttdoc">Classe Vecteur2D. </div><div class="ttdef"><b>Definition:</b> Vecteur2D.h:21</div></div>
+<div class="ttc" id="class_forme_composee_html_a87eb22cfdcccf152b000389a98506e99"><div class="ttname"><a href="class_forme_composee.html#a87eb22cfdcccf152b000389a98506e99">FormeComposee::Afficher</a></div><div class="ttdeci">virtual string Afficher() const</div><div class="ttdoc">Affichage d&amp;#39;une forme. </div><div class="ttdef"><b>Definition:</b> FormeComposee.cpp:73</div></div>
+<div class="ttc" id="class_forme_composee_html"><div class="ttname"><a href="class_forme_composee.html">FormeComposee</a></div><div class="ttdoc">Classe FormeComposee. </div><div class="ttdef"><b>Definition:</b> FormeComposee.h:11</div></div>
+<div class="ttc" id="class_forme_composee_html_a01db1a4bc0c307c06439552d11ea2d2f"><div class="ttname"><a href="class_forme_composee.html#a01db1a4bc0c307c06439552d11ea2d2f">FormeComposee::Rotation</a></div><div class="ttdeci">FormeComposee &amp; Rotation(const Vecteur2D &amp;v, double angle)</div><div class="ttdoc">Rotation d&amp;#39;une forme. </div><div class="ttdef"><b>Definition:</b> FormeComposee.cpp:55</div></div>
+<div class="ttc" id="class_forme_composee_html_ade8e690b17bebc5531488cd3bb471cb4"><div class="ttname"><a href="class_forme_composee.html#ade8e690b17bebc5531488cd3bb471cb4">FormeComposee::FormeComposee</a></div><div class="ttdeci">FormeComposee(int couleur)</div><div class="ttdoc">Constructeur d&amp;#39;une forme. </div><div class="ttdef"><b>Definition:</b> FormeComposee.cpp:5</div></div>
+<div class="ttc" id="class_forme_composee_html_aaaa07f4dfc72baae315220611079aef5"><div class="ttname"><a href="class_forme_composee.html#aaaa07f4dfc72baae315220611079aef5">FormeComposee::operator+</a></div><div class="ttdeci">FormeComposee operator+(Forme &amp;f)</div><div class="ttdoc">Surcharge operateur +. </div><div class="ttdef"><b>Definition:</b> FormeComposee.cpp:34</div></div>
+<div class="ttc" id="class_forme_composee_html_a1beb411e75223d92746a72247d982b2e"><div class="ttname"><a href="class_forme_composee.html#a1beb411e75223d92746a72247d982b2e">FormeComposee::Translation</a></div><div class="ttdeci">FormeComposee &amp; Translation(const Vecteur2D &amp;v)</div><div class="ttdoc">Translation d&amp;#39;une forme. </div><div class="ttdef"><b>Definition:</b> FormeComposee.cpp:46</div></div>
+<div class="ttc" id="class_forme_composee_html_a3ca220b9051f0d2236c047e61c10f60a"><div class="ttname"><a href="class_forme_composee.html#a3ca220b9051f0d2236c047e61c10f60a">FormeComposee::operator+=</a></div><div class="ttdeci">FormeComposee &amp; operator+=(Forme &amp;f)</div><div class="ttdoc">Surcharge operateur +=. </div><div class="ttdef"><b>Definition:</b> FormeComposee.cpp:25</div></div>
+<div class="ttc" id="class_forme_composee_html_ab58ed3db5043e5a9f9571174878447d6"><div class="ttname"><a href="class_forme_composee.html#ab58ed3db5043e5a9f9571174878447d6">FormeComposee::Homothetie</a></div><div class="ttdeci">FormeComposee &amp; Homothetie(const Vecteur2D &amp;v, double rapport)</div><div class="ttdoc">Homothétie d&amp;#39;une forme. </div><div class="ttdef"><b>Definition:</b> FormeComposee.cpp:64</div></div>
+<div class="ttc" id="class_forme_composee_html_a38d36f885a9e2aa1cbafd425929027a7"><div class="ttname"><a href="class_forme_composee.html#a38d36f885a9e2aa1cbafd425929027a7">FormeComposee::operator&lt;&lt;</a></div><div class="ttdeci">friend ostream &amp; operator&lt;&lt;(ostream &amp;o, const FormeComposee &amp;f)</div><div class="ttdoc">Surcharge operateur &lt;&lt;. </div><div class="ttdef"><b>Definition:</b> FormeComposee.cpp:99</div></div>
+<div class="ttc" id="class_forme_composee_html_a66729cd85a4b4b574c8f22d55ab547f6"><div class="ttname"><a href="class_forme_composee.html#a66729cd85a4b4b574c8f22d55ab547f6">FormeComposee::operator[]</a></div><div class="ttdeci">Forme * operator[](int index) const</div><div class="ttdoc">Surcharge operateur []. </div><div class="ttdef"><b>Definition:</b> FormeComposee.cpp:41</div></div>
+<div class="ttc" id="class_visiteur_html"><div class="ttname"><a href="class_visiteur.html">Visiteur</a></div><div class="ttdoc">Classe Visiteur. </div><div class="ttdef"><b>Definition:</b> Visiteur.h:19</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

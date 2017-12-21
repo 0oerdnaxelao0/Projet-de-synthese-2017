@@ -1,0 +1,12 @@
+
+*.db
+*.opendb
+*.ipch
+.vs/Synthese-project-LULU-DEDERC/v15/.suo
+*.obj
+*.exe
+*.ilk
+*.pdb
+*.log
+*.tlog
+*.idb

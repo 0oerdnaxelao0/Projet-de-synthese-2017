@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Projet de synthèse : Ludwig - Couderc:  Fichier source de Synthese-project-LULU-DEDERC/Triangle.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Projet de synthèse : Ludwig - Couderc
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d1430c42c6fdd2e75cac3cd9fd79df3a.html">Synthese-project-LULU-DEDERC</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Triangle.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &lt;math.h&gt;</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;Polygone.h&quot;</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;Visitable.h&quot;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;Visiteur.h&quot;</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">class </span><a class="code" href="class_vecteur2_d.html">Vecteur2D</a>;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">class </span><a class="code" href="class_segment.html">Segment</a>;</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div><div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="class_triangle.html">   16</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_triangle.html">Triangle</a> : <span class="keyword">public</span> <a class="code" href="class_polygone.html">Polygone</a></div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;{</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <a class="code" href="class_triangle.html#a476ee30065fa6bb7f26df0b24ed32006">Triangle</a>(<span class="keywordtype">int</span> couleur, <span class="keyword">const</span> <a class="code" href="class_vecteur2_d.html">Vecteur2D</a> &amp;u1, <span class="keyword">const</span> <a class="code" href="class_vecteur2_d.html">Vecteur2D</a> &amp;u2, <span class="keyword">const</span> <a class="code" href="class_vecteur2_d.html">Vecteur2D</a> &amp;u3);</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <a class="code" href="class_triangle.html#a476ee30065fa6bb7f26df0b24ed32006">Triangle</a>(<a class="code" href="class_triangle.html">Triangle</a> &amp;t);</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="class_triangle.html#a5199760a17454f4dc94c855a57e3a152">~Triangle</a>();</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordtype">double</span> <a class="code" href="class_triangle.html#aa5b37c16f68508e09b7bee4a17914358">getPerimetre</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordtype">double</span> <a class="code" href="class_triangle.html#a26fe4909666a8b9d5d4aebbd2b479c61">getAire</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordtype">string</span> <a class="code" href="class_triangle.html#a764ba9b6abbe09a59912517e86b51af6">Afficher</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keyword">friend</span> ostream&amp; <a class="code" href="class_triangle.html#a58a9ebf43491056a2be8d69ca015c359">operator&lt;&lt;</a>(ostream &amp;o, <span class="keyword">const</span> <a class="code" href="class_triangle.html">Triangle</a> &amp;t);</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_triangle.html#ae147697e397087445a00dbe27b374e55">accepte</a>(<a class="code" href="class_visiteur.html">Visiteur</a>*) <span class="keyword">const</span>;</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">string</span> <a class="code" href="class_triangle.html#a5fbe9e1bea3ab8aae5fdd1f044814843">toString</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;};</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div><div class="ttc" id="class_triangle_html_ae147697e397087445a00dbe27b374e55"><div class="ttname"><a href="class_triangle.html#ae147697e397087445a00dbe27b374e55">Triangle::accepte</a></div><div class="ttdeci">void accepte(Visiteur *) const</div><div class="ttdoc">Fonction accepte qui rentre des les formes. </div><div class="ttdef"><b>Definition:</b> Triangle.cpp:61</div></div>
+<div class="ttc" id="class_triangle_html"><div class="ttname"><a href="class_triangle.html">Triangle</a></div><div class="ttdoc">Classe Triangle. </div><div class="ttdef"><b>Definition:</b> Triangle.h:16</div></div>
+<div class="ttc" id="class_vecteur2_d_html"><div class="ttname"><a href="class_vecteur2_d.html">Vecteur2D</a></div><div class="ttdoc">Classe Vecteur2D. </div><div class="ttdef"><b>Definition:</b> Vecteur2D.h:21</div></div>
+<div class="ttc" id="class_triangle_html_a5199760a17454f4dc94c855a57e3a152"><div class="ttname"><a href="class_triangle.html#a5199760a17454f4dc94c855a57e3a152">Triangle::~Triangle</a></div><div class="ttdeci">virtual ~Triangle()</div><div class="ttdoc">Destructeur d&amp;#39;un Triangle. </div><div class="ttdef"><b>Definition:</b> Triangle.cpp:21</div></div>
+<div class="ttc" id="class_polygone_html"><div class="ttname"><a href="class_polygone.html">Polygone</a></div><div class="ttdoc">Classe Polygone. </div><div class="ttdef"><b>Definition:</b> Polygone.h:16</div></div>
+<div class="ttc" id="class_triangle_html_a764ba9b6abbe09a59912517e86b51af6"><div class="ttname"><a href="class_triangle.html#a764ba9b6abbe09a59912517e86b51af6">Triangle::Afficher</a></div><div class="ttdeci">string Afficher() const</div><div class="ttdoc">Affichage d&amp;#39;une forme. </div><div class="ttdef"><b>Definition:</b> Triangle.cpp:47</div></div>
+<div class="ttc" id="class_segment_html"><div class="ttname"><a href="class_segment.html">Segment</a></div><div class="ttdoc">Classe Segment. </div><div class="ttdef"><b>Definition:</b> Segment.h:11</div></div>
+<div class="ttc" id="class_triangle_html_a26fe4909666a8b9d5d4aebbd2b479c61"><div class="ttname"><a href="class_triangle.html#a26fe4909666a8b9d5d4aebbd2b479c61">Triangle::getAire</a></div><div class="ttdeci">double getAire() const</div><div class="ttdoc">Getter Aire. </div><div class="ttdef"><b>Definition:</b> Triangle.cpp:35</div></div>
+<div class="ttc" id="class_triangle_html_aa5b37c16f68508e09b7bee4a17914358"><div class="ttname"><a href="class_triangle.html#aa5b37c16f68508e09b7bee4a17914358">Triangle::getPerimetre</a></div><div class="ttdeci">double getPerimetre() const</div><div class="ttdoc">Getter Perimetre. </div><div class="ttdef"><b>Definition:</b> Triangle.cpp:25</div></div>
+<div class="ttc" id="class_triangle_html_a58a9ebf43491056a2be8d69ca015c359"><div class="ttname"><a href="class_triangle.html#a58a9ebf43491056a2be8d69ca015c359">Triangle::operator&lt;&lt;</a></div><div class="ttdeci">friend ostream &amp; operator&lt;&lt;(ostream &amp;o, const Triangle &amp;t)</div><div class="ttdoc">Surcharge operateur &lt;&lt;. </div><div class="ttdef"><b>Definition:</b> Triangle.cpp:66</div></div>
+<div class="ttc" id="class_triangle_html_a5fbe9e1bea3ab8aae5fdd1f044814843"><div class="ttname"><a href="class_triangle.html#a5fbe9e1bea3ab8aae5fdd1f044814843">Triangle::toString</a></div><div class="ttdeci">virtual string toString() const</div><div class="ttdoc">toString </div><div class="ttdef"><b>Definition:</b> Triangle.cpp:72</div></div>
+<div class="ttc" id="class_visiteur_html"><div class="ttname"><a href="class_visiteur.html">Visiteur</a></div><div class="ttdoc">Classe Visiteur. </div><div class="ttdef"><b>Definition:</b> Visiteur.h:19</div></div>
+<div class="ttc" id="class_triangle_html_a476ee30065fa6bb7f26df0b24ed32006"><div class="ttname"><a href="class_triangle.html#a476ee30065fa6bb7f26df0b24ed32006">Triangle::Triangle</a></div><div class="ttdeci">Triangle(int couleur, const Vecteur2D &amp;u1, const Vecteur2D &amp;u2, const Vecteur2D &amp;u3)</div><div class="ttdoc">Constructeur d&amp;#39;un Triangle. </div><div class="ttdef"><b>Definition:</b> Triangle.cpp:5</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

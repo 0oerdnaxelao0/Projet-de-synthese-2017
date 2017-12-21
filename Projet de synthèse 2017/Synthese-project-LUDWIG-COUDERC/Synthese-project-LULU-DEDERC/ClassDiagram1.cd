@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DessinVisiteur">
+    <Position X="9" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>DessinVisiteur.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Erreur">
+    <Position X="2" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAiA=</HashCode>
+      <FileName>Erreur.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExpertFormeComposee">
+    <Position X="5.25" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ExpertFormeComposee.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SauvegardeVisiteur">
+    <Position X="11" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SauvegardeVisiteur.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SingletonWinsock">
+    <Position X="3.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAIQAAAAAAAgAA=</HashCode>
+      <FileName>SingletonWinsock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Visitable">
+    <Position X="14" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visitable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Visiteur">
+    <Position X="10" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visiteur.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cercle">
+    <Position X="6.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAARAkAFICCAAAQRCAgAAAAAAIAAAAgAAAAAAA=</HashCode>
+      <FileName>Cercle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Forme">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEEAAAABAAABIACCAAQZAAAAgAAAAAAAIAAAAAAAAI=</HashCode>
+      <FileName>Forme.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FormeComposee">
+    <Position X="2" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAgAIACABAQRQAAAAEBAAAAAAAgAAAAQAA=</HashCode>
+      <FileName>FormeComposee.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Polygone">
+    <Position X="4.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoAEAAQABAACAIECAAAwRQAgAEAAgEIIAQAiAAAAQCA=</HashCode>
+      <FileName>Polygone.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Segment">
+    <Position X="8.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgIBAQAAIACEAEWRAAAAAAAAAAAAAAAAGAAAAA=</HashCode>
+      <FileName>Segment.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Triangle">
+    <Position X="6.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAABAAAAAABAAAAQAAgAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Triangle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vecteur2D">
+    <Position X="11.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIBAQAAIACAAEWRQAAAAAAAAQAAAAgAGAAAAA=</HashCode>
+      <FileName>Vecteur2D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExpertCercle">
+    <Position X="3" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>ExpertCercle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExpertChargement">
+    <Position X="6.25" Y="12.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAACAAgBAAEAAAAAAAAAAACAAACAAA=</HashCode>
+      <FileName>ExpertChargement.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExpertPolygone">
+    <Position X="7.5" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>ExpertPolygone.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExpertSegment">
+    <Position X="9.75" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAABAAAAAA=</HashCode>
+      <FileName>ExpertSegment.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Typedef Name="APointeurFonction" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Forme.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
